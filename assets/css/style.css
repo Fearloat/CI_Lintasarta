@@ -1,0 +1,134 @@
+body {
+    background: #b6b6b6 url(../img/cubes.png);
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    font-size: 14px;
+}
+
+tr { 
+    border: 1px solid #ccc; 
+    }
+  
+  td { 
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #eee; 
+    position: relative;
+    padding-left: 60%; 
+  }
+  
+.table {
+  margin-top: 10px;
+}
+
+.table th {
+  background-color: whiteSmoke;
+}
+
+  
+  td:before { 
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%; 
+    padding-right: 10px; 
+    white-space: nowrap;
+  }
+  
+warna {
+    color: #222;
+}
+
+#coba_form {
+    color : #b6b6b6;
+    width: 370px;
+    background: #f0f0f0 url(../img/login_bg.jpg) repeat-x  ;
+    border: 1px solid white;
+    margin: 250px auto  0;
+    padding: 1em;
+    -moz-border-radius:3px;
+}
+
+#test_aja{
+    color: #b6b6b6;
+    width: 370px;
+    background: #f0f0f0 url(../img/login_bg.jpg) repeat-x ;
+    border: 1px solid whitesmoke;
+    margin: 10px auto  ;
+    padding: 1em;
+    -moz-border-radius: 3px;
+}
+
+
+h1,h2,h3,h5{
+    margin-top: 0;
+    font-family: arial;
+    text-align: center;
+}
+
+
+input[type=text] , input[type=password] {
+    display: block;
+    margin: 0 0 1em 0;
+    width: 280px;
+    border: 5px;
+    -moz-border-radius:1px;
+    -webkit-border-radius: 1px; 
+    padding: 1em;
+}
+
+
+input[type=submit]{
+    border: none;
+    margin-right: 1em;
+    padding: 6px;
+    text-decoration: none;
+    font-size: 12px;
+    -webkit-border-radius: 4px;
+    background: #348075;
+    color: white;
+    box-shadow: 0 1px 0 white;
+    -moz-box-shadow: 0 1px 0 white;
+    -webkit-box-shadow: 0 1px 0 white;
+}
+
+input [type=submit]:hover {
+    background: #287368;
+    cursor: pointer;
+}
+
+.error{
+    color:#393939;
+    font-size: 15px;
+    
+}
+fieldset{
+    width: 300px;
+    margin: auto;
+    margin-bottom: 2em;
+    display: block;
+   
+}
+h1 {
+    text-shadow: 0 1px 0 #b6b6b6  ;
+}
+
+a4{
+    font-size: 14px;
+    font: arial narrow ;
+    text-shadow: 0 1px 0 #b6b6b6 ;
+}
+
+h1.warna:hover{
+color: #222;
+  -webkit-transition: all 0.5s ease-in-out;
+       -moz-transition: all 0.5s ease-in-out;
+         -o-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
+  text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px #fff;
+}
+
+h1.warna:hover .i{
+  color: #348075;
+}
